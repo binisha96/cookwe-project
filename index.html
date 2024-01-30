@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-right: 100px;
+}
+  /*.section {
+    margin-left: 200px;
+  }*/
+  .cards{
+    border: 1px solid white;
+    margin: 15px 20px 15px 15px;
+    float: left;
+    width: 256px;
+    height: 343px;
+    justify-content: center;
+    align-items: center;
+  }
+ .cards img{
+    width: 100%;
+    height: 190px;
+   
+    border-radius: 8px;
+ }
+ .name{
+    padding: 8px;
+    margin-left: 3px;
+    color:black;
+    font-size: 20px;
+ }
+ .main .text{
+    margin-right: 300px;
+ }
+ .button{
+    text-align: left;
+ }
+ /*ul{
+    list-style: none;
+    background: black;
+
+  }
+  ul li{
+    display: inline-block;
+    position: relative;
+  }
+  ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+  }
+  ul li ul.dropdown{
+    display: block;
+  }
+  ul li ul.dropdown{
+    width: 100%;
+    background: red;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }*/
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>CookWe</h1>
+                </div>
+                <div class="input">
+                    <input type="text" value="" id="inp" placeholder="Search Recipe">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                <!--<ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li>
+                        <a href="Category">Category</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Veg</a></li>
+                            <li><a href="#">Non-veg</a></li>
+                            <li><a href="#">Desserts</a></li>
+                            <li><a href="#">Drinks</a></li>
+                            <li><a href="#">Pickels</a></li>
+                            <li><a href="#">Curry</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+
+
+                </ul>-->
+                <div class="nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="signup.html">SIGNUP</a></li>
+                      </ul>
+                </div>
+            </nav>
+            <!--main page-->
+            <div class="main">
+                <div class="text">
+                    <h1>Discover Ethnical Recipe Of Taste</h1>
+                    <p>Create Flavourful Relish Nepali Ethnic based Recipes to clench your hunger. </p>
+                   
+                </div>
+                <img src="cooklogo.png" alt="">
+            </div>
+            <!--card food-->
+            <table>
+                <tr>
+                    <td>
+                        <div class="head">
+                            <h1>Some Sample Recipes</h1>
+                        </div>
+    <section>
+    <div class="card">
+        <div class="cards">
+            <a href="chatamarii.html"><img src="chatamari.jpg" alt=""></a>
+            <div class="name">Chatamari</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="chickencurry.png" alt=""></a>
+            <div class="name">Chicken Curry</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="grilledchickennaan.jpg" alt=""></a>
+            <div class="name">Grilled Chicken Naan</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="gundrukachar.jpg" alt=""></a>
+            <div class="name">Gundruk Ko Achar</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="momo.jpg" alt=""></a>
+            <div class="name">MOMO</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="fishcurry.webp" alt=""></a>
+            <div class="name">Fish Curry</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="selroti.jpg" alt=""></a>
+            <div class="name">Selroti</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="sweetpotatocurry.png" alt=""></a>
+            <div class="name">Sweet Potato Curry</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="yomari.jpg" alt=""></a>
+            <div class="name">Yomari</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="alooachar.jpg" alt=""></a>
+            <div class="name">Aloo Ko Achar</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="aloodum.webp" alt=""></a>
+            <div class="name">Aloo Dum</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="alootama.webp" alt=""></a>
+            <div class="name">Aloo Tama</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="keema noodles.jpg" alt=""></a>
+            <div class="name">Keema Noodles</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="khuwa.png" alt=""></a>
+            <div class="name">Khuwa</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="pasta.webp" alt=""></a>
+            <div class="name">Pasta</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="poori.webp" alt=""></a>
+            <div class="name">Poori</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="cheesepizza.webp" alt=""></a>
+            <div class="name">Cheese Pizza</div>
+        </div>
+
+        <div class="cards">
+            <a href="#"><img src="keema noodles.jpg" alt=""></a>
+            <div class="name">Keema Noodles</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="eggplantmushroomcurry.webp" alt=""></a>
+            <div class="name">Egg Plant Mushroom Curry</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="berrysmoothie.jpg" alt=""></a>
+            <div class="name">Berry Smoothie</div>
+        </div>
+       
+        <div class="cards">
+            <a href="#"><img src="chcolatesmoothie.jpg" alt=""></a>
+            <div class="name">Chocolate Smoothie</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="raspberrysmothie.jpg" alt=""></a>
+            <div class="name">Raspberry Smoothie</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="mangosmoothie.jpg" alt=""></a>
+            <div class="name">Mango Smoothie</div>
+        </div>
+        <div class="cards">
+            <a href="#"><img src="lassi.webp" alt=""></a>
+            <div class="name">Lassi</div>
+        </div>
+        
+    </div>
+</section>
+</body>
+</html>

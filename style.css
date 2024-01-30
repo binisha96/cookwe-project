@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    box-shadow: 0px 4px 2px white;
+  }
+  .nav ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.nav ul li a:hover{
+    box-shadow: 0 3px 50px red,0 3px 50px red,o 3px 50px red,0 3px 50px red;
+}
+  .logo h1{
+    font-size: 50px;
+    color: white;
+  }
+  .icon{
+    margin-left: -11px;
+  }
+  .icon i{
+    font-size: 22px;
+    margin-inline: 11px;
+    background-color: white;
+    color: black;
+    padding: 11px;
+    border-radius: 2px;
+  }
+  .icon i:hover{
+    color: red;
+    cursor: pointer;
+  }
+  nav input{
+    width: 300px;
+    padding: 11px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 2px;
+  }
+  .input i{
+    margin-left: -28px;
+    color: black;
+    font-size: 20px;
+  }*/
+  
+  .main{
+    display: flex;
+    justify-content: space-around;
+  }
+  .main .img{
+    width: 33%;
+    margin-top: 50px;
+  }
+  .main .text{
+    width: 500px;
+    margin-top: 30px;
+  }
+  .text h1{
+    font-size: 45px;
+    color: black;
+  }
+  .text p{
+    color: black;
+    font-size: 25px;
+    margin-top: 22px;
+  }
+  .text button{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+  }
+  .crd{
+    border: 1px solid black;
+  }
+  .crd .card{
+    border: 1px solid white;
+    float:left;
+    /*display: flex;*/
+    justify-content: center;
+    margin: 15px 20px 15px 15px;
+    align-items: center;
+    width: 145px;
+   /* color: black;*/
+  }
+  /*.crd .card{
+    width: 1000px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 7px;
+   
+  }*/
+  .crd img{
+    padding: 7px;
+    border-radius: 2px;
+    display: flex;
+    width: 343px;
+    height: 256px;
+    margin: auto;
+  border-radius: 8px;
+  }
+  .card h2{
+    margin-top: 12px;
+
+  }
+  .card button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+    width: 140px;
+    height: 38px;
+  }
+  /*.review .customer{
+    width: 343px;
+    height: 246px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .customer img{
+    width: 33%;
+    border-radius: 50%;
+  }*/
+
+  

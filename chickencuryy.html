@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+    margin: 0;
+    padding: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  .wrapper{
+    border: 1px solid white;
+    height: 256px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .image{
+    border: 1px solid white;
+    width: 343px;
+    height: 256px;
+    float: right;
+  }
+.detail{
+    float: left;
+    font-size: 23px;
+}
+.things{
+    display: flex;
+    border-radius: 30px;
+    border: 20px solid white;
+}
+
+.card{
+    border: 50px solid white;
+    margin: 15px 20px 15px 15px;
+    float: left;
+    width: 256px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+  }
+  /*nav bar*/
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    box-shadow: 0px 4px 2px white;
+  }
+  .nav ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.nav ul li a:hover{
+    box-shadow: 0 3px 50px red,0 3px 50px red,o 3px 50px red,0 3px 50px red;
+}
+  .logo h1{
+    font-size: 50px;
+    color: white;
+  }
+  .icon{
+    margin-left: -11px;
+  }
+  .icon i{
+    font-size: 22px;
+    margin-inline: 11px;
+    background-color: white;
+    color: black;
+    padding: 11px;
+    border-radius: 2px;
+  }
+  .icon i:hover{
+    color: red;
+    cursor: pointer;
+  }
+  nav input{
+    width: 300px;
+    padding: 11px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 2px;
+  }
+  .input i{
+    margin-left: -28px;
+    color: black;
+    font-size: 20px;
+  }
+  .directions{
+    float: right;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>CookWe</h1>
+                </div>
+                
+                <div class="input">
+                    <input type="text" value="" id="inp" placeholder="Search Recipe">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+    <div class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="signup.html">SIGNUP</a></li>
+          </ul>
+    </div>
+    
+</header>
+<div class="wrapper">
+       
+    <div class="detail">
+       <br> <h1>Chicken Curry<br> </h1>
+     <br>
+     <div class="image">
+        <img src="chickencurry.png" alt=""> 
+    </div>
+    
